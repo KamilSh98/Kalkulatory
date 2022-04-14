@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="bg.jpg" style="width: 100%; height: 100%;">
+        <h1>Kalkulator BMR</h1>
+        <div class="box-cal">
+            <form>
+                <div class="form-center">
+                    <div class="gender">
+                        <p>Zaznacz płeć</p>
+                        <input type="checkbox" name="Kobieta" id="women">
+                        <p>Kobieta</p>
+                        <input type="checkbox" name="Mężczyzna" id="men">
+                        <p>Mężczyzna</p>
+                    </div>
+                    <div class="weight">
+                        <p>Podaj wagę</p>
+                        <input type="number" id="weight">
+                        <p style="margin-left: 4px">kg</p>
+                    </div>
+                    <div class="height">
+                        <p>Podaj wzrost</p>
+                        <input type="number" id="height">
+                        <p style="margin-left: 4px">cm</p>
+                    </div>
+                    <div class="age">
+                        <p>Podaj wiek</p>
+                        <input type="number" id="age">
+                        <p style="margin-left: 4px">lat</p>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Oblicz" id="submit">
+                        <input type="reset" value="Zresetuj" id="reset">
+                    </div>
+                    <div class="result">
+                        <div id="result">Twoje BMR wynosi: </div>
+                    </div>
+                    <div class="home"><a href="index.html">Wróć do wyboru kalkulatorów</a></div>
+                </div>
+                <div class="info">
+                    <p>Wypełniając pola w kalkulatorze, takie jak płeć, wiek, waga, wzrost, obliczysz swoje podstawowe zapotrzebowanie kaloryczne, czyli taką ilość kalorii, jaka jest niezbędna Twojemu ciału do zachowania podstawowych funkcji fizjologicznych, tj. oddychanie, trawienie, praca narządów wewnętrznych.
+                    </br></br>
+                        Obliczenie BMR, a następnie CPM (Całkowita Przemiana Materii) umożliwia wykluczenie podstawowych błędów dietetycznych, takich jak zbyt niska lub zbyt wysoka podaż kalorii.
+                    </br></br>   
+                        Nasz kalkulator BMR pomoże Ci policzyć zarówno Podstawową, jak i Całkowitą Przemianę Materii ( PPM i CPM).</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="BMI.js"></script>
+</body>
+</html>

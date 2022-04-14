@@ -39,25 +39,100 @@
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
+  background: #e8d4b3;
 }
 
 .container .box-cal .calculator {
-  text-align: center;
   margin: 5px;
   border: 5px outset #e8d4b3;
 }
 
 .container .box-cal .calculator a {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-decoration: none;
   width: 100%;
   height: 100%;
   color: #674000;
   font-weight: 600;
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .container .box-cal .calculator:hover {
   background: #d7c3a2;
+}
+
+.container .box-cal form {
+  position: absolute;
+  background: #f1f1ef;
+  width: 52vw;
+  height: 48vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: auto;
+}
+
+.container .box-cal form .form-center {
+  border-right: 2px solid #d7c3a2;
+  margin-right: 10px;
+}
+
+.container .box-cal form .form-center .weight, .container .box-cal form .form-center .height, .container .box-cal form .form-center .result, .container .box-cal form .form-center .submit, .container .box-cal form .form-center .home, .container .box-cal form .form-center .age, .container .box-cal form .form-center .gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+}
+
+.container .box-cal form .form-center .weight p, .container .box-cal form .form-center .height p, .container .box-cal form .form-center .result p, .container .box-cal form .form-center .submit p, .container .box-cal form .form-center .home p, .container .box-cal form .form-center .age p, .container .box-cal form .form-center .gender p {
+  margin-right: 10px;
+}
+
+.container .box-cal form .form-center #weight, .container .box-cal form .form-center #height, .container .box-cal form .form-center #age {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.container .box-cal form .form-center .home a {
+  color: #674000;
+}
+
+.container .box-cal form .form-center .home a:hover {
+  color: #563000;
+}
+
+.container .box-cal form .form-center .submit #submit, .container .box-cal form .form-center .submit #reset {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  font-weight: 500;
+  border-color: #d7c3a2;
+}
+
+.container .box-cal form .form-center .submit #submit:hover, .container .box-cal form .form-center .submit #reset:hover {
+  background: #d7c3a2;
+  border-color: #f1f1ef;
 }
 /*# sourceMappingURL=style.css.map */

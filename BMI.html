@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="bg.jpg" style="width: 100%; height: 100%;">
+        <h1>Kalkulator BMI</h1>
+        <div class="box-cal">
+            <form>
+                <div class="form-center">
+                    <div class="weight">
+                        <p>Podaj wagę</p>
+                        <input type="number" id="weight">
+                        <p style="margin-left: 4px">kg</p>
+                    </div>
+                    <div class="height">
+                        <p>Podaj wzrost</p>
+                        <input type="number" id="height">
+                        <p style="margin-left: 4px">cm</p>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="Oblicz" id="submit">
+                        <input type="reset" value="Zresetuj" id="reset">
+                    </div>
+                    <div class="result">
+                        <div id="result">Twoje BMI wynosi: </div>
+                    </div>
+                    <div class="home"><a href="index.html">Wróć do wyboru kalkulatorów</a></div>
+                </div>
+                <div class="info">
+                    <p>- do 16: wygłodzenie</br>
+                        - od 16 do 17: wychudzenie</br>
+                        - od 17 do 18.5: niedowaga</br>
+                        - od 18.5 do 25: wartość prawidłowa</br>
+                        - od 25 do 30: nadwaga</br>
+                        - od 30 do 35: I stopień otyłości</br>
+                        - od 35 do 40: II stopień otyłości</br>
+                        - powyżej 40: III stopień otyłości</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="BMI.js"></script>
+</body>
+</html>
