@@ -15,10 +15,10 @@
             <form>
                 <div class="form-center">
                     <div class="gender">
-                        <p>Zaznacz płeć</p>
-                        <input type="checkbox" name="Kobieta" id="women">
+                        <p>Zaznacz płeć:</p>
+                        <input type="checkbox" name="Kobieta" id="woman">
                         <p>Kobieta</p>
-                        <input type="checkbox" name="Mężczyzna" id="men">
+                        <input type="checkbox" name="Mężczyzna" id="man">
                         <p>Mężczyzna</p>
                     </div>
                     <div class="weight">
@@ -36,6 +36,15 @@
                         <input type="number" id="age">
                         <p style="margin-left: 4px">lat</p>
                     </div>
+                    <p>Aktywność fizyczna</p>
+                    <select id="silnik"> 
+                        <option value"a">Prawie brak (brak ćwiczeń, praca biurowa, itd.)</option>
+                        <option selected value"b">Lekka aktywność (lekkie ćwiczenia kilka razy w miesiącu)</option>
+                        <option value"c">Umiarkowana aktywność (ćwiczenia 1-2 razy w tygodniu) </option>
+                        <option value"d">Duża aktywność (ćwiczenia 3-5 razy w tygodniu)</option>
+                        <option value"e">Bardzo duża aktywność (codzienne ćwiczenia, praca fizyczna, itd.)</option>
+                    </select>
+                </br></br>
                     <div class="submit">
                         <input type="submit" value="Oblicz" id="submit">
                         <input type="reset" value="Zresetuj" id="reset">
@@ -55,6 +64,6 @@
             </form>
         </div>
     </div>
-    <script src="BMI.js"></script>
+    <script src="BMR.js"></script>
 </body>
 </html>
