@@ -28,9 +28,16 @@
         width: 52vw
         height: 48vh
         display: grid
+        grid-auto-flow: row dense 
         grid-template-columns: 1fr 1fr 1fr
         grid-template-rows: 1fr 1fr 1fr
+        gap: 10px 10px 
+        grid-template-areas: "First-big-grid First-big-grid ."". . ."". Second-big-grid Second-big-grid"
         background: #e8d4b3
+        .First-big-grid 
+            grid-area: First-big-grid
+        .Second-big-grid 
+            grid-area: Second-big-grid
         .calculator
             margin: 5px
             border: 5px outset #e8d4b3
@@ -58,14 +65,14 @@
             .form-center
                 border-right: 2px solid #d7c3a2
                 margin-right: 10px
-                .weight, .height, .result, .submit, .home, .age, .gender
+                .weight, .height, .result, .submit, .home, .age, .gender, .distance, .repeat
                     display: flex
                     justify-content: center
                     align-items: center
                     padding: 5px
                     p
                         margin-right: 10px
-                #weight, #height, #age
+                #weight, #height, #age, #distance, #repeat
                     width: 300px
                     padding: 10px
                     border: 1px solid #000

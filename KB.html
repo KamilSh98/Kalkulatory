@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator biegowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="bg.jpg" style="width: 100%; height: 100%;">
+        <h1>Kalkulator biegowy</h1>
+        <div class="box-cal">
+            <form>
+                <div class="form-center">
+                    <div class="weight">
+                        <p>Podaj wagę</p>
+                        <input type="number" id="weight">
+                        <p style="margin-left: 4px">kg</p>
+                    </div>
+                    <div class="distance">
+                        <p>Podaj dystans</p>
+                        <input type="number" id="distance">
+                        <p style="margin-left: 4px">km</p>
+                    </div>
+                </br></br>
+                    <div class="submit">
+                        <input type="submit" value="Oblicz" id="submit">
+                        <input type="reset" value="Zresetuj" id="reset">
+                    </div>
+                    <div class="result">
+                        <div id="result">Oto wynik! Ilość spalonych kalorii wynosi: </div>
+                    </div>
+                    <div class="home"><a href="index.html">Wróć do wyboru kalkulatorów</a></div>
+                </div>
+                <div class="info">
+                    <p>Kalkulator biegowy – jak działa?
+                        Podobnie jak kalkulator spalania kalorii, kalkulator biegowy ma za zadanie określić, ile wykorzystujemy energii podczas biegu. 
+                        Elementy składowe, jakie potrzebne są nam do wyliczenia, to zarówno masa ciała, jak i przebiegnięty dystans.</p></br>
+                        
+                        <p> Czy kalkulator biegowy jest przydatny do monitorowania swoich wyników?
+                        Kalkulator biegowy to dobra metoda, jeżeli zależy nam na tym, aby określić, ile energii zużyliśmy podczas treningu. 
+                        Co więcej, z powodzeniem możemy wykorzystywać wyliczenia, podczas okresu redukcji tkanki tłuszczowej, aby zaplanować deficyt kaloryczny w związku z wykonywanymi 
+                        aktywnościami. Dodatkowo, kalkulator biegowy uwzględnia masę ciała osoby biegającej, co przekłada się na uszczegółowienie ilości energii w zależności od ciężaru ciała 
+                        osoby trenującej.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="KB.js"></script>
+</body>
+</html>

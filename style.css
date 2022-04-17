@@ -35,11 +35,28 @@
   height: 48vh;
   display: -ms-grid;
   display: grid;
+  grid-auto-flow: row dense;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+      grid-template-areas: "First-big-grid First-big-grid ." ". . ." ". Second-big-grid Second-big-grid";
   background: #e8d4b3;
+}
+
+.container .box-cal .First-big-grid {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: First-big-grid;
+}
+
+.container .box-cal .Second-big-grid {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Second-big-grid;
 }
 
 .container .box-cal .calculator {
@@ -91,7 +108,7 @@
   margin-right: 10px;
 }
 
-.container .box-cal form .form-center .weight, .container .box-cal form .form-center .height, .container .box-cal form .form-center .result, .container .box-cal form .form-center .submit, .container .box-cal form .form-center .home, .container .box-cal form .form-center .age, .container .box-cal form .form-center .gender {
+.container .box-cal form .form-center .weight, .container .box-cal form .form-center .height, .container .box-cal form .form-center .result, .container .box-cal form .form-center .submit, .container .box-cal form .form-center .home, .container .box-cal form .form-center .age, .container .box-cal form .form-center .gender, .container .box-cal form .form-center .distance, .container .box-cal form .form-center .repeat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -104,11 +121,11 @@
   padding: 5px;
 }
 
-.container .box-cal form .form-center .weight p, .container .box-cal form .form-center .height p, .container .box-cal form .form-center .result p, .container .box-cal form .form-center .submit p, .container .box-cal form .form-center .home p, .container .box-cal form .form-center .age p, .container .box-cal form .form-center .gender p {
+.container .box-cal form .form-center .weight p, .container .box-cal form .form-center .height p, .container .box-cal form .form-center .result p, .container .box-cal form .form-center .submit p, .container .box-cal form .form-center .home p, .container .box-cal form .form-center .age p, .container .box-cal form .form-center .gender p, .container .box-cal form .form-center .distance p, .container .box-cal form .form-center .repeat p {
   margin-right: 10px;
 }
 
-.container .box-cal form .form-center #weight, .container .box-cal form .form-center #height, .container .box-cal form .form-center #age {
+.container .box-cal form .form-center #weight, .container .box-cal form .form-center #height, .container .box-cal form .form-center #age, .container .box-cal form .form-center #distance, .container .box-cal form .form-center #repeat {
   width: 300px;
   padding: 10px;
   border: 1px solid #000;
