@@ -8,7 +8,7 @@ submit.addEventListener("click", () => {
     const wynik = weight*(1.035*distance)
     result.innerHTML += wynik.toFixed(0);
 }
-else if(weight<35 || weight>250){
+else if(weight<35 && weight>250){
     alert("Proszę podać prawidłowe parametry ciała");
 }
 else{
