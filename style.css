@@ -108,7 +108,7 @@
   margin-right: 10px;
 }
 
-.container .box-cal form .form-center .weight, .container .box-cal form .form-center .height, .container .box-cal form .form-center .result, .container .box-cal form .form-center .submit, .container .box-cal form .form-center .home, .container .box-cal form .form-center .age, .container .box-cal form .form-center .gender, .container .box-cal form .form-center .distance, .container .box-cal form .form-center .repeat, .container .box-cal form .form-center .waist, .container .box-cal form .form-center .hip {
+.container .box-cal form .form-center .weight, .container .box-cal form .form-center .height, .container .box-cal form .form-center .result, .container .box-cal form .form-center .submit, .container .box-cal form .form-center .home, .container .box-cal form .form-center .age, .container .box-cal form .form-center .gender, .container .box-cal form .form-center .distance, .container .box-cal form .form-center .repeat, .container .box-cal form .form-center .waist, .container .box-cal form .form-center .hip, .container .box-cal form .form-center .type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -121,7 +121,7 @@
   padding: 5px;
 }
 
-.container .box-cal form .form-center .weight p, .container .box-cal form .form-center .height p, .container .box-cal form .form-center .result p, .container .box-cal form .form-center .submit p, .container .box-cal form .form-center .home p, .container .box-cal form .form-center .age p, .container .box-cal form .form-center .gender p, .container .box-cal form .form-center .distance p, .container .box-cal form .form-center .repeat p, .container .box-cal form .form-center .waist p, .container .box-cal form .form-center .hip p {
+.container .box-cal form .form-center .weight p, .container .box-cal form .form-center .height p, .container .box-cal form .form-center .result p, .container .box-cal form .form-center .submit p, .container .box-cal form .form-center .home p, .container .box-cal form .form-center .age p, .container .box-cal form .form-center .gender p, .container .box-cal form .form-center .distance p, .container .box-cal form .form-center .repeat p, .container .box-cal form .form-center .waist p, .container .box-cal form .form-center .hip p, .container .box-cal form .form-center .type p {
   margin-right: 10px;
 }
 
